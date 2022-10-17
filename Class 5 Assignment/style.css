@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: 'Courgette', cursive;
+    
+}
+
+.body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 2.2rem;
+    margin: 40px;
+}
+.inputnumber{
+    font-size: 50px;
+    width: 55px;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.btn{
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 5px 0px white;
+    border: 1px solid black;
+}
+
+.redhigh{
+    color: red;
+    display: none;
+}
+.redlow{
+    color: red;
+    display: none;
+    
+}
+.green{
+    color: green;
+    display: none;
+
+}
+
+.reset{
+    font-size: 20px;
+}
